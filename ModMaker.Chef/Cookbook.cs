@@ -12,7 +12,13 @@ namespace ModMaker.Chef
     /// </summary>
     public sealed class Cookbook
     {
+        /// <summary>
+        /// Contains the backing field for the property that contains the name.
+        /// </summary>
         readonly string name;
+        /// <summary>
+        /// Contains the backing field for the property that contains the organization.
+        /// </summary>
         readonly Organization organization;
         /// <summary>
         /// Contains a cache of cookbook versions.
